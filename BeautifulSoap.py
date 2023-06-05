@@ -1,4 +1,5 @@
-import requests
+i in range(10):
+        primport requests
 from bs4 import Beautifulsoup
 url = "https://bank.gov.ua/"
 try:
@@ -39,7 +40,6 @@ try:
 
 
     a_tag = soup.find_all('a')
-    for i in range(10):
-        print(a_tag[i])
+    for int(a_tag[i])
 
 
